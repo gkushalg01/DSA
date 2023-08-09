@@ -18,5 +18,14 @@
     <ClCompile Include="DSA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3-contains-duplicate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="4-product-of-array-except-itself.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>

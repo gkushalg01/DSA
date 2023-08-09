@@ -1,11 +1,20 @@
 // DSA.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+
 #include <iostream>
+#include <chrono>
+#include <vector>
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    auto s = std::chrono::high_resolution_clock::now();
+    
+    
+    auto e = std::chrono::high_resolution_clock::now();
+    auto t = std::chrono::duration < double, std::milli>(e - s).count();
+    std::cout << "Time = " << t << "\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
