@@ -33,7 +33,7 @@ std::vector<int> productExceptSelf(std::vector<int>& nums) {
 
     return ans;
 }
-
+ /*
 int main()
 {
     auto s = std::chrono::high_resolution_clock::now();
@@ -44,7 +44,7 @@ int main()
     auto e = std::chrono::high_resolution_clock::now();
     auto t = std::chrono::duration < double, std::milli>(e - s).count();
     std::cout << "Time = " << t << "\n";
-}
+}*/
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
