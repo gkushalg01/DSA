@@ -10,34 +10,14 @@
 int main()
 {
     auto s = std::chrono::high_resolution_clock::now();
-    
-    int a = 6, b = 7, ans = 0;
-    bool carry = 0;
-
-    while (a || b) {
-        int x = a & 1, y = b & 1;
-        bool res = x ^ y;
-        if (carry) {
-            carry = x | y;
-            res = !res;
-        } else {
-            carry = x & y;
-        }
-        ans = (ans<<1)|res;
-        a >>= 1;
-        b >>= 1;
+    int a = 10, b = 20;
+    int t = 0;
+    while (b != 0) {
+        t = (a & b);
+        a ^= b;
+        b = t << 1;
     }
-    if (carry) {
-        ans = (ans << 1) | 1;
-    }
-
-    int fres = 0;
-    while (ans) {
-        bool t = ans & 1;
-        fres = fres << 1 | t;
-        ans >>= 1;
-    }
-    std::cout << fres;
+    std::cout << a;
     auto e = std::chrono::high_resolution_clock::now();
     auto t = std::chrono::duration < double, std::milli>(e - s).count();
     std::cout << "Time = " << t << "\n";
