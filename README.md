@@ -10,8 +10,8 @@ Array
 
 - Two Sum - https://leetcode.com/problems/two-sum/
 - Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-+ Contains Duplicate - https://leetcode.com/problems/contains-duplicate/
-+ Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/
++3 Contains Duplicate - https://leetcode.com/problems/contains-duplicate/
++4 Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/
 - Maximum Subarray - https://leetcode.com/problems/maximum-subarray/
 - Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
 - Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
@@ -23,8 +23,8 @@ Array
 
 Binary
 
-+ Sum of Two Integers - https://leetcode.com/problems/sum-of-two-integers/
-- Number of 1 Bits - https://leetcode.com/problems/number-of-1-bits/
++11 Sum of Two Integers - https://leetcode.com/problems/sum-of-two-integers/
++12 Number of 1 Bits - https://leetcode.com/problems/number-of-1-bits/
 - Counting Bits - https://leetcode.com/problems/counting-bits/
 - Missing Number - https://leetcode.com/problems/missing-number/
 - Reverse Bits - https://leetcode.com/problems/reverse-bits/
@@ -39,7 +39,7 @@ Dynamic Programming
 - Longest Common Subsequence -
 - Word Break Problem - https://leetcode.com/problems/word-break/
 - Combination Sum - https://leetcode.com/problems/combination-sum-iv/
-- House Robber - https://leetcode.com/problems/house-robber/
++22 House Robber - https://leetcode.com/problems/house-robber/
 - House Robber II - https://leetcode.com/problems/house-robber-ii/
 - Decode Ways - https://leetcode.com/problems/decode-ways/
 - Unique Paths - https://leetcode.com/problems/unique-paths/

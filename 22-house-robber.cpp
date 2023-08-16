@@ -15,9 +15,9 @@ int rob(std::vector<int>& nums) {
     if (n == 1) return t1;
     int t2 = max(t1, nums[1]);
     if (n == 2) return t2;
-
+    int mx;
     for (int i = 2; i < n; ++i) {
-        int mx = max(nums[i] + t1, t2);
+        mx = max(nums[i] + t1, t2);
         t1 = t2;
         t2 = mx;
     }
